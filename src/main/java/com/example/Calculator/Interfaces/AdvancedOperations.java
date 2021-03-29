@@ -8,7 +8,6 @@ public interface AdvancedOperations {
 	public double absolute(double x);
 	public double remainder(double dividend, double divisor);
 	
-	
-	
+		
 
 }

@@ -10,7 +10,7 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedOpera
 	}
 
 	public double cube(double x) {
-		double result = Math.cbrt(0) ;
+		double result = Math.cbrt(x) ;
 		return result;
 	}
 
@@ -20,7 +20,7 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedOpera
 	}
 
 	public double absolute(double x) {
-		double result = Math.abs(0);
+		double result = Math.abs(x);
 		return result;
 	}
 
