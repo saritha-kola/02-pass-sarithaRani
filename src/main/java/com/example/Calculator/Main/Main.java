@@ -13,7 +13,7 @@ public class Main {
 		
 		AdvancedCalculator advancedcalculator= new AdvancedCalculator();
 		System.out.println(advancedcalculator.square(3.0));
-		System.out.println(advancedcalculator.cube(6));
+		System.out.println(advancedcalculator.cubert(6));
 		System.out.println(advancedcalculator.power(3, 2));
 		System.out.println(advancedcalculator.absolute(-500));
 		System.out.println(advancedcalculator.remainder(7, 2));	
