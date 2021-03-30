@@ -9,7 +9,7 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedOpera
 		return result;
 	}
 
-	public double cube(double x) {
+	public double cubert(double x) {
 		double result = Math.cbrt(x) ;
 		return result;
 	}
