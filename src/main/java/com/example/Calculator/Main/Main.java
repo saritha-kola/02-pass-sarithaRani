@@ -5,7 +5,7 @@ import com.example.Calculator.classes.AdvancedCalculator;
 public class Main {
 	
 	public static void main(String[] args) {
-		com.example.Calculator.classes.BasicCalculator basiccalc = new BasicCalculator();
+		/*com.example.Calculator.classes.BasicCalculator basiccalc = new BasicCalculator();
 		System.out.println(basiccalc.addition(2, 2));
 		System.out.println(basiccalc.substraction(3, 2));
 		System.out.println(basiccalc.multiplication(3, 2));
@@ -16,7 +16,8 @@ public class Main {
 		System.out.println(advancedcalculator.cubert(6));
 		System.out.println(advancedcalculator.power(3, 2));
 		System.out.println(advancedcalculator.absolute(-500));
-		System.out.println(advancedcalculator.remainder(7, 2));	
+		System.out.println(advancedcalculator.remainder(7, 2));*/
+		System.out.println("Test");
 						
 	}	
 

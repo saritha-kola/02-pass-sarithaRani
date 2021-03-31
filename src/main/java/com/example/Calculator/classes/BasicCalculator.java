@@ -22,7 +22,7 @@ public class BasicCalculator implements BasicOperations{
 	public double division(double firstNumber, double secondNumber) {
 		if(secondNumber ==0.0) {
 			System.out.println("You cannot divide by Zero");
-			return -0.123456789;
+			return 0;
 		}else {
 			double result = firstNumber / secondNumber;
 		
