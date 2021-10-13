@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2021-03-31T21:09:14.016Z" agent="5.0 (X11)" etag="kBCSwvrseDH7w9Sux3YI" version="14.5.4" type="github">
+  <diagram id="9Gae6KLp8xhden7ugH0P" name="Page-1">
+    <mxGraphModel dx="1350" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-k-SofTfMev_EXdFbgV--1" value="«interface»&lt;br&gt;&lt;b&gt;BasicOperations&lt;/b&gt;" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-k-SofTfMev_EXdFbgV--2" value="BasicCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="210" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-k-SofTfMev_EXdFbgV--4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="-k-SofTfMev_EXdFbgV--2" vertex="1">
+          <mxGeometry y="26" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-k-SofTfMev_EXdFbgV--5" value="+ addition(double, double):double&#xa;+ substraction(double, double):double&#xa;+ multiplication(double, double):double&#xa;+ division(double, double):double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="-k-SofTfMev_EXdFbgV--2" vertex="1">
+          <mxGeometry y="34" width="220" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="-k-SofTfMev_EXdFbgV--6" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.445;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.564;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-k-SofTfMev_EXdFbgV--2" target="-k-SofTfMev_EXdFbgV--1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="350" as="sourcePoint" />
+            <mxPoint x="500" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-k-SofTfMev_EXdFbgV--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.1;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-k-SofTfMev_EXdFbgV--2" target="-k-SofTfMev_EXdFbgV--2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-k-SofTfMev_EXdFbgV--8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.591;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="-k-SofTfMev_EXdFbgV--9" target="-k-SofTfMev_EXdFbgV--5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="400" as="sourcePoint" />
+            <mxPoint x="500" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-k-SofTfMev_EXdFbgV--9" value="AdvancedCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="430" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-k-SofTfMev_EXdFbgV--11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="-k-SofTfMev_EXdFbgV--9" vertex="1">
+          <mxGeometry y="26" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-k-SofTfMev_EXdFbgV--12" value="+ power(double, double):double&#xa;+ square(double):double&#xa;+ cubert(double):double&#xa;+ absolute(double):double&#xa;+ remainder(double,double):double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="-k-SofTfMev_EXdFbgV--9" vertex="1">
+          <mxGeometry y="34" width="210" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="-k-SofTfMev_EXdFbgV--13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="-k-SofTfMev_EXdFbgV--14" edge="1" source="-k-SofTfMev_EXdFbgV--9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="467.93000000000006" y="430" as="sourcePoint" />
+            <mxPoint x="472.06999999999994" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-k-SofTfMev_EXdFbgV--14" value="«interface»&lt;br&gt;&lt;b&gt;AdvancedOperations&lt;/b&gt;" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="245" width="160" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
